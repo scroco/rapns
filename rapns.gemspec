@@ -21,7 +21,6 @@ Gem::Specification.new do |s|
 
   if defined? JRUBY_VERSION
     s.platform = 'java'
-    s.add_dependency "jruby-openssl"
     s.add_dependency "activerecord-jdbc-adapter"
   end
 end
